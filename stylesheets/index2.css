@@ -15,7 +15,7 @@ img{border:none;}
 }
 
 #wrap ul {
-    width: 3000px;
+    width: auto;/*3000px;*/
 }
 #wrap li {
     display: block;
@@ -31,7 +31,7 @@ img{border:none;}
 #wrap li img {
     display: block;
     width:640px;
-    
+    height:320px;
 }
 #wrap ul:hover li { width:40px;}
 #wrap ul li:hover { width: 640px;}
