@@ -30,8 +30,7 @@ img{border:none;}
 }
 #wrap li img {
     display: block;
-    width:640px;
-    height:320px;
+    max-width: 100%;
 }
 #wrap ul:hover li { width:40px;}
 #wrap ul li:hover { width: 640px;}
