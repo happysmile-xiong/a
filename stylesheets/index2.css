@@ -7,7 +7,7 @@ a{ text-decoration:none;}
 img{border:none;}
 
 #wrap {
-    width:845px;
+    width:1270px;
     height: 320px;
     overflow: hidden;
     margin: 80px auto;
@@ -15,7 +15,7 @@ img{border:none;}
 }
 
 #wrap ul {
-    width: auto;/*3000px;*/
+    /*width: auto;3000px;*/
 }
 #wrap li {
     display: block;
@@ -30,10 +30,13 @@ img{border:none;}
 }
 #wrap li img {
     display: block;
-    max-width: 100%;
+    width: 140px; height: 320px;
 }
-#wrap ul:hover li { width:40px;}
+#wrap ul:hover li { width:77px;}
 #wrap ul li:hover { width: 640px;}
+#wrap li img:hover {
+    width:640px;
+}
 #wrap .title {
     position: absolute;
     left: 0; bottom: 0;
